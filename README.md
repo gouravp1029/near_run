@@ -2,6 +2,12 @@
 
 A new Flutter project.
 
+## Flutter Version
+
+- **Flutter**: 3.35.5
+- **Channel**: stable
+- **Dart**: 3.9.2
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
