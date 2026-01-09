@@ -1,5 +1,6 @@
 // main.dart
 import 'package:flutter/material.dart';
+import 'package:near_run/utils/app_colors.dart';
 import 'package:provider/provider.dart';
 import 'screens/home_screen.dart';
 import 'providers/run_provider.dart';
@@ -21,12 +22,12 @@ class MyApp extends StatelessWidget {
         title: 'NearRun',
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
-          brightness: Brightness.dark,
-          scaffoldBackgroundColor: const Color(0xFF0A0E21),
-          primaryColor: const Color(0xFF4C6EF5),
-          colorScheme: ColorScheme.dark(
-            primary: const Color(0xFF4C6EF5),
-            secondary: const Color(0xFF7C3AED),
+          brightness: Brightness.light,
+          scaffoldBackgroundColor: AppColors.gray,
+          primaryColor: AppColors.primary,
+          colorScheme: ColorScheme.light(
+            primary: AppColors.primary,
+            secondary: AppColors.gray,
             surface: const Color(0xFF1A1F3A),
           ),
           fontFamily: 'SF Pro Display',
@@ -52,19 +53,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
-// providers/run_provider.dart
-
-
-// screens/home_screen.dart
-
-
-// screens/start_run_screen.dart
-
-
-// screens/running_screen.dart
-
-// screens/history_screen.dart
-
-
-// screens/profile_screen.dart
